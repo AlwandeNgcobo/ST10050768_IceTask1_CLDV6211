@@ -1,0 +1,38 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-image: url("/bc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1, h3, h4, p, th, td{
+    color: white
+}
+.setCentre{
+    margin:auto;
+    width: 50%;
+}
+.info {
+    display:flex
+}
+a{
+    color:white
+}
